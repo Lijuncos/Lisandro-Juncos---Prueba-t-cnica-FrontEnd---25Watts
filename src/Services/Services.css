@@ -1,0 +1,42 @@
+.services-contenedor {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 1 / 13;
+    background-color: #F2F4F1;
+    padding-top: 95px;
+}
+.services-contenedor h2,
+.services-contenedor p {
+    margin: 0;
+    text-align: center;
+    grid-column: 3 / 11;
+    line-height: 2;
+}
+.services-contenedor .services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    grid-column: 2 / 12;
+}
+.service-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px 0;
+}
+.service-icon h3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 21px;
+    max-width: 206px;
+}
+@media (max-width: 700px) {
+    .services-contenedor .services {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .service-icon {
+        margin: 20px 0 0 0;
+    }
+}

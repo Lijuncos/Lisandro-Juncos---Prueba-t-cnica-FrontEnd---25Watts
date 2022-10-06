@@ -1,0 +1,68 @@
+.aboutUs {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    position: relative;
+    padding: 88px 0;
+}
+.aboutUs h2 span {
+    color: #E0752F;
+}
+.aboutUs::before {
+    content: '';
+    position: absolute;
+    height: 468px;
+    width: 24px;
+    background-color: #E0752F;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.image-aboutUs {
+    width: 100%;
+    grid-column: 3 / 6;
+}
+.aboutUs-info {
+    max-width: 471px;
+    grid-column: 7 / 12;
+}
+.aboutUs-title {
+    margin: 0;
+    text-align: left;
+}
+.aboutUs-text {
+    margin: 44px 0;
+    text-align: left;
+    letter-spacing: 0.22px;
+    line-height: 1.75;
+}
+.alinear-izquierda {
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width: 700px) {
+    .aboutUs {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding-bottom: 0;
+    }
+    .aboutUs-text,
+    .aboutUs-title {
+        padding: 0 15px;
+    }
+    .aboutUs::before {
+        display: none;
+    }
+    .aboutUs-info {
+        padding-bottom: 30px;
+    }
+    .button {
+        margin-left: 15px;
+    }
+}
+@media (max-width: 992px) {
+    .image-aboutUs {
+        grid-column: 2 / 6;
+    }
+}

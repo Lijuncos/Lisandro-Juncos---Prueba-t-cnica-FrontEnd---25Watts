@@ -1,0 +1,15 @@
+{
+    "header": {
+        "nav": {
+            "home": "Home",
+            "about_us": "About us",
+            "services": "Services",
+            "products": "Products",
+            "details": "Details",
+            "contact": "Contact"
+        }
+    },
+    "algo":{
+        "algo2" : "algo3"
+    }
+}
