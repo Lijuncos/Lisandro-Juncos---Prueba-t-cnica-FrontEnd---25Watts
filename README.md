@@ -1,1 +1,1 @@
-# Lisandro-Juncos---Prueba-t-cnica-FrontEnd---25Watts
+# Lisandro-Juncos---Prueba-tecnica-FrontEnd---25Watts
